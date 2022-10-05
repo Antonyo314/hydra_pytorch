@@ -1,3 +1,0 @@
-class_name: torch.nn.SmoothL1Loss
-params:
-  beta: 0.1

@@ -1,5 +1,0 @@
-
-class_name: adabound.AdaBound
-params:
-  lr: ${training.lr}
-  final_lr: 0.1
