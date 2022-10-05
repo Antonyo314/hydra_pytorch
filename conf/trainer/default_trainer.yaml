@@ -1,6 +1,6 @@
 
 gpus: 1
-accelerator: dp
+accelerator: cpu
 num_nodes: 1
 accumulate_grad_batches: 1
 profiler: False
