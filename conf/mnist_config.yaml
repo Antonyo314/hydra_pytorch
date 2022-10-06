@@ -8,13 +8,10 @@ defaults:
   - scheduler: exponential
   - model: simple_model
   - callbacks: callbacks
-  - private: default
   - augmentation: basic_augs
   - loss: cross_entropy
   - metric: accuracy
   - inference: basic
-  - override hydra/hydra_logging: colorlog
-  - override hydra/job_logging: colorlog
 
 general:
   logs_folder_name: logs
