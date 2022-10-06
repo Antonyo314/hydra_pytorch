@@ -9,7 +9,7 @@ encoder:
     source: timm
     n_layers: -2
     freeze: False
-    to_one_channel: False
+    to_one_channel: True
     freeze_until_layer:
 decoder:
   class_name: src.models.decoders.basic_decoder.BasicDecoder
